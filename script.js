@@ -65,8 +65,8 @@ function createScene() {
   sphericalHelper = new THREE.Spherical();
   pathAngleValues = [1.52, 1.57, 1.62];
 
-  sceneWidth = window.innerWidth - 20;
-  sceneHeight = window.innerHeight - 20;
+  sceneWidth = window.innerWidth;
+  sceneHeight = window.innerHeight;
 
   scene = new THREE.Scene();
   scene.fog = new THREE.FogExp2(0x8fd8ff, 0.09);

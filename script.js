@@ -204,13 +204,13 @@ function handleKeyDown(keyEvent) {
       validMove = false;
     }
   } else if (keyEvent.keyCode === 80 || keyEvent.keyCode === 81) {
-    if (paused) {
-      pausedText.innerHTML = "";
-      paused = false;
-    } else {
-      pausedText.innerHTML = "Game Paused";
-      paused = true;
-    }
+    // if (paused) {
+    //   pausedText.innerHTML = "";
+    //   paused = false;
+    // } else {
+    //   pausedText.innerHTML = "Game Paused";
+    //   paused = true;
+    // }
   } else {
     if ((keyEvent.keyCode === 38  || keyEvent.keyCode === 87 || keyEvent.keyCode === 32) && !jumping && !paused) {  
       bounceValue = 0.11;
